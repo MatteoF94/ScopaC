@@ -1,1 +1,3 @@
-gcc `pkg-config --cflags gtk+-3.0` roserv.c -o kg-config --libs gtk+-3.0`gcc `pkg-config --cflags gtk+-3.0` room.I.c game_UI.c `pkg-config --libs gtk+-3.0` -o room
+gcc `pkg-config --cflags gtk+-3.0` roserv.c -o kg-config --libs gtk+-3.0`
+
+gcc `pkg-config --cflags gtk+-3.0` room_UI.c game_UI.c room.c `pkg-config --libs gtk+-3.0` -o room
