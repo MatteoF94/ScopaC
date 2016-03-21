@@ -1,0 +1,119 @@
+#mystatusbar {
+  border-width: 3px;
+  border-color: yellow;
+  border-style: solid;
+  background-color: #4DA609;
+  font: Sans 14;
+  color: yellow; 
+}
+
+#mycapture {
+  border-color: black;
+}
+
+#mytextchat {
+	background-color: #A26100;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+.myview {
+  background-color: #D5FFFC;
+}
+
+.rulesdata {
+  background-color: #7D5800;
+  color: white;
+}
+
+GtkWindow#mywindow {
+	background-image: url("back.jpg");
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+}
+
+GtkButton#mybuttonfirst{
+  border-radius: 0px;
+  border-width: 3px;
+  border-color: black;
+  font: Sans 24;
+  color: black;
+}
+
+GtkButton#mybuttonfirst:hover {
+  background-image: -gtk-gradient(radial, center center, 0, center center, 0.7,
+    color-stop(0.00,rgba(255,255,255,1)),
+    color-stop(0.50,rgba(200,200,200,1)),
+    color-stop(0.80,rgba(100,100,100,1)));
+}
+
+/*****************/
+
+#my_scroll {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;  
+  background-image: -gtk-gradient (linear,
+                    0 1, 1 1,
+                    color-stop(0.0,rgba(250,0,0,1)),
+                  color-stop(0.50,rgba(255,255,0,1)));
+}
+
+GtkLabel#mylabel {
+  border-style: ridge;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: orange;
+  padding: 10px 10px 10px 10px;
+}
+
+#creation{
+  border-style: dotted;
+  border-width: 2px;
+  border-color: red;
+  border-radius: 5px;
+}
+
+#create_label{
+  font-weight: bold;
+  font-family: "Courier New";
+}
+
+GtkLabel#selection {
+  border-style: ridge;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: blue;
+  padding: 10px 10px 10px 10px;
+}
+
+GtkBox#mysmallbox{
+  border-style: solid;
+  border-color: black;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  font: Sans 17;
+}
+
+GtkLabel#myscore{
+  font: Sans 20;
+  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+  font-style: italic;
+}
+
+GtkLabel#score_label{
+  border-style: solid;
+  border-color: black;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font: Sans 17;
+}
+
+GtkBox#result_box{
+  background-color:white;
+  border-radius: 5px;
+}
