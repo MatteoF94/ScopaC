@@ -8,4 +8,6 @@ need the GTK+ platform, available at http://www.gtk.org/download/index.php.
 Now a basic explanation of what you will see (client side, the server has been already started up): the first step is in the lobby, where you,
 the player, will be able to join a room or create one. Once the room is full, two players, the one who has been in it the most will now
 be able to start the game (START MATCH button)! 
-For more information, check the technic description of the program in the file "Scheda tecnica.doc" in this repository and remember... have fun playing!!
+For more information, check the technic description of the program in the file "Scheda tecnica.doc" in this repository and remember... HAVE FUN!!
+
+![alt tag](https://raw.githubusercontent.com/MatteoF94/ScopaC/master/Sample.png)
